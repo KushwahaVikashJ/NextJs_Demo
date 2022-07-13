@@ -20,22 +20,28 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a
+            href="https://www.youtube.com/watch?v=YmMtT4cspnE"
+            className={styles.card}
+          >
+            <h2>Google fonts in nextjs &rarr;</h2>
+            <p>Find in-depth information about Google fonts in nextjs.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://www.youtube.com/watch?v=vIxGDq1SPZQ&t=5757s"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Mobile responsive in nextjs &rarr;</h2>
+            <p>Learn about Mobile responsive in nextjs!</p>
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=wARbgs5Fmuw"
+            className={styles.card}
+          >
+            <h2>Manage font size responsive in nextjs &rarr;</h2>
+            <p>Discover and Manage font size responsive in nextjs.</p>
           </a>
 
           <a
