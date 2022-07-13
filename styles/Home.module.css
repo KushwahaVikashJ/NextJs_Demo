@@ -48,6 +48,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: "Pacifico";
 }
 
 .title,
@@ -70,6 +71,7 @@
 }
 
 .grid {
+  font-family: "Shadows Into Light";
   display: flex;
   align-items: center;
   justify-content: center;
