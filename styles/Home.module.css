@@ -70,16 +70,6 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  font-family: "Shadows Into Light";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -114,8 +104,24 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.grid {
+  font-family: "Shadows Into Light";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+} */
+
+@media screen and (max-width: 480px) {
   .grid {
     width: 100%;
     flex-direction: column;
